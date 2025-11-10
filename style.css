@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(173, 171, 171);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.car-1{
+    background-image: url("https://i.pinimg.com/736x/6f/b1/af/6fb1af0b4d80add94fe7afc8f5972e1a.jpg");
+}
+
+
+.car-2{
+    background-image: url("https://i.pinimg.com/736x/38/56/7b/38567b069ec547a96c2355727174e605.jpg");
+}
+
+
+.car-3{
+    background-image: url("https://i.pinimg.com/736x/9c/09/0e/9c090ec7a3abbbea06269763cc320a68.jpg");
+}
+
+.car-4{
+    background-image: url("https://i.pinimg.com/736x/a0/6c/8b/a06c8bfd9533996987f3affbdd378188.jpg");
+}
+
+.car-5{
+    background-image: url("https://i.pinimg.com/736x/2c/eb/c3/2cebc30777e7afe6c14ad4c8733ed2f2.jpg");
+}
+
+.card p{
+    padding-left: 30px;
+    padding-top: 5px;
+    
+}
+
+.card h2{
+    padding-left: 30px;
+}
+
+.card a{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    /* padding: 15px 20px; */
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
